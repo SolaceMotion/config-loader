@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Json Loader</title>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    We are using Node.js <span id="node-version"></span>,
+    <span id="chrome-version"></span>,
+    <span id="electron-version"></span>
+
+    <div class="fileInput">
+      <input type="file" id="fileSelect" />
+      <label for="fileSelect">Select a File
+
+      <p id="fileName"></p>
+      <p id="fileSize"></p>
+      </label>
+    </div>
+
+    <div id="fileDisplayArea"></div>
+    <script src="./renderer.js"></script>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html>
